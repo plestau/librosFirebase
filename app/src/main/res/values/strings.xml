@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Librería</string>
+    <string name="crear">Crear libro</string>
+    <string name="ver">Ver libros</string>
+    <string name="volver">Volver</string>
+    <string name="editar">Editar libro</string>
+    <string name="nombreLibro">Introduce el nombre del libro</string>
+    <string name="descripcionLibro">Introduce la descripción del libro</string>
+</resources>

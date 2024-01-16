@@ -1,0 +1,65 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_group"
+        android:title="Ordenar"
+        app:showAsAction="never">
+        <menu>
+
+            <item
+                android:id="@+id/sort_titulo"
+                android:title="Por Título">
+                <menu>
+                    <item
+                        android:id="@+id/sort_titulo_ascendente"
+                        android:title="Ascendente"
+                        android:checkable="true"/>
+                    <item
+                        android:id="@+id/sort_titulo_descendente"
+                        android:title="Descendente"
+                        android:checkable="true"/>
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/sort_fecha"
+                android:title="Por Fecha">
+                <menu>
+                    <item
+                        android:id="@+id/sort_fecha_ascendente"
+                        android:title="Ascendente"
+                        android:checkable="true"/>
+                    <item
+                        android:id="@+id/sort_fecha_descendente"
+                        android:title="Descendente"
+                        android:checkable="true"/>
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/sort_rating"
+                android:title="Por Rating">
+                <menu>
+                    <item
+                        android:id="@+id/sort_rating_ascendente"
+                        android:title="Ascendente"
+                        android:checkable="true"/>
+                    <item
+                        android:id="@+id/sort_rating_descendente"
+                        android:title="Descendente"
+                        android:checkable="true"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_24"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:orderInCategory="2"
+        android:order="1"/>
+</menu>
