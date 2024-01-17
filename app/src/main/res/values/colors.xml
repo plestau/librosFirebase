@@ -14,4 +14,6 @@
     <color name="fondoscuro">#3C3939</color>
     <color name="gris">#B8B8B8</color>
     <color name="amarillo">#FFEB3B</color>
+    <color name="transparente">#7EFFEB3B</color>
+    <color name="fondoestrella">#94000000</color>
 </resources>

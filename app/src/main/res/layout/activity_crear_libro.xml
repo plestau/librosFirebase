@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondopapel"
     tools:context=".CrearLibro">
 
     <ImageView
@@ -58,7 +59,8 @@
         android:isIndicator="false"
         android:numStars="5"
         android:stepSize="0.5"
-        android:progressTint="@color/amarillo"
+
+        android:theme="@style/RatingBar.Yellow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/descripcion" />
